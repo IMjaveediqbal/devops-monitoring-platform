@@ -1,8 +1,7 @@
+
 services:
   backend:
-    build:
-      context: ./backend
-    image: devops-backend:1.0
+    image: javeediqbal/devops-backend:latest
     container_name: devops-backend-container
     ports:
       - "8000:8000"
